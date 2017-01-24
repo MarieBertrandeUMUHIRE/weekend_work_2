@@ -2,6 +2,13 @@
 
 def palindrome?(string)
 
+    if string == string.reverse
+      return true
+    else 
+      return false
+    end 
+
+
 end
 
 # Driver code - don't touch anything below this line.
